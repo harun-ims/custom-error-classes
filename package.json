@@ -1,0 +1,42 @@
+{
+  "name": "@harun-ims/common",
+  "version": "1.0.0",
+  "description": "Error class",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "module": "./dist/index.mjs",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "start": "ts-node src/index.ts"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/harun-ims/@harum-ims/common"
+  },
+  "author": {
+    "name": "Md Harun Or Rashid",
+    "email": "harun.ru.cse@gmail.com",
+    "url": "https://harun-dev.vercel.app"
+  },
+  "keywords": [
+    "error",
+    "http",
+    "status",
+    "codes"
+  ],
+  "devDependencies": {
+    "@types/node": "^22.5.0",
+    "nodemon": "^3.1.4",
+    "ts-node": "^10.9.2",
+    "tsup": "^8.2.4",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "http-status-codes": "^2.3.0"
+  }
+}
